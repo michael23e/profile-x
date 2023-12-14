@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #dedede;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kalnia', serif;
+}
+.container{
+    max-width: 400px;
+    width: 90%;
+    background-color: #2f2d3851;
+    background-image: url(images/hightech-helmets-humanoid-being-generative-ai.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    color: white;
+    position: relative;
+    padding:20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.text-container{
+    position: absolute;
+    bottom: 45px;
+    /* left: 35px; */
+    display: flex;
+    align-items: center;
+}
+.text{
+    padding-right: 25px;
+}
+h1{
+    font-size: 45px;
+    letter-spacing: 1.5px;
+}
+p{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+#next{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.323);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+#next:hover{
+    background-color: white;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    color: #00000051;
+}
+.img img{
+    max-width: 100%;
+
+}
+#container-profile{
+    max-width: 400px;
+    width: 90%;
+    background-color: #ffffff;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding:5px;
+    display: none;
+    color: #1d1d1d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#container-profile.active {
+    opacity: 1;
+}
+#container-profile .text{
+    padding: 10px;
+}
+.container-profile .text-container{
+    flex-direction: column;
+}
+.container-profile .btn button{
+    width: 100%;
+}
+#container-profile .text h1{
+    color: #0c5061;
+    padding: 10px 0;
+}
+#container-profile .text p{
+    font-size: 13px;
+    color: rgb(169, 163, 163);
+}
+.content{
+    padding: 10px 0;
+}
+.followers{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.followers h3{
+    color: #17687c;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#sub{
+    background-color: #0c5061;
+    width: 100%;
+    padding: 10px 0;
+    color: #ffffff;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#sub:hover{
+    background-color: #17687c;
+    
+}
